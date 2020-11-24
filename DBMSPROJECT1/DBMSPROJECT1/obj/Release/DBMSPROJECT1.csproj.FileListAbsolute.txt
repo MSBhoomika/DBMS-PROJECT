@@ -1,0 +1,11 @@
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\bin\Release\DBMSPROJECT1.exe.config
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\bin\Release\DBMSPROJECT1.exe
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\bin\Release\DBMSPROJECT1.pdb
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\obj\Release\DBMSPROJECT1.csprojAssemblyReference.cache
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\obj\Release\DBMSPROJECT1.FacultyProfile.resources
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\obj\Release\DBMSPROJECT1.Properties.Resources.resources
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\obj\Release\DBMSPROJECT1.Form1.resources
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\obj\Release\DBMSPROJECT1.csproj.GenerateResource.cache
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\obj\Release\DBMSPROJECT1.csproj.CoreCompileInputs.cache
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\obj\Release\DBMSPROJECT1.exe
+C:\Users\Hp\source\repos\DBMSPROJECT1\DBMSPROJECT1\obj\Release\DBMSPROJECT1.pdb

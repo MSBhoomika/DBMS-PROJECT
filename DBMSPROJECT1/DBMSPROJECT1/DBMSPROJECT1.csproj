@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA624520-4FD1-4D14-A861-49CABD9D4D6E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DBMSPROJECT1</RootNamespace>
+    <AssemblyName>DBMSPROJECT1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin.designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="adminlogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminlogin.Designer.cs">
+      <DependentUpon>adminlogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacultyProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacultyProfile.Designer.cs">
+      <DependentUpon>FacultyProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="flogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="flogin.designer.cs">
+      <DependentUpon>flogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StudentProf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StudentProf.Designer.cs">
+      <DependentUpon>StudentProf.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="adminlogin.resx">
+      <DependentUpon>adminlogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacultyProfile.resx">
+      <DependentUpon>FacultyProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="flogin.resx">
+      <DependentUpon>flogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="StudentProf.resx">
+      <DependentUpon>StudentProf.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suru-desktop-wallpaper-ubuntu-vivid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desert-Night-Desktop-Wallpaper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person-icon-flat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\professor-icon-21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\suru-desktop-wallpaper-ubuntu-vivid1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-live-mobile-hd-wallpapers-3D.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flat-design-wallpaper-hd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-background-wallpaper-HD3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desert-Night-Desktop-Wallpaper1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-background-wallpaper-HD31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desktop-background-hd-10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desert-Night-Desktop-Wallpaper2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desktop-Wallpaper-22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Desktop-Wallpaper-221.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cool-planets-3d-graphics-mobile-wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cool_3d_wallpapers_for_mobile_and_desktop_screens.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cool_3d_wallpapers_for_mobile_and_desktop_screens1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-live-mobile-hd-wallpapers-3D1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
